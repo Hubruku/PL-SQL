@@ -1,0 +1,79 @@
+
+Table VYSETRENI88 altered.
+
+
+Table VYSETRENI88 altered.
+
+
+Sequence DOKTOR88_ID_DOK_SEQ dropped.
+
+
+Sequence PACIENT88_ID_PAC_SEQ dropped.
+
+
+Sequence VYSETRENI88_ID_VYS_SEQ dropped.
+
+
+Table DOKTOR88 dropped.
+
+
+Table DOKTOR88 created.
+
+
+Table DOKTOR88 altered.
+
+
+Table PACIENT88 dropped.
+
+
+Table PACIENT88 created.
+
+
+Table PACIENT88 altered.
+
+
+Table VYSETRENI88 dropped.
+
+
+Table VYSETRENI88 created.
+
+
+Table VYSETRENI88 altered.
+
+
+Table VYSETRENI88 altered.
+
+
+Table VYSETRENI88 altered.
+
+
+Sequence DOKTOR88_ID_DOK_SEQ created.
+
+
+Trigger DOKTOR88_ID_DOK_TRG compiled
+
+
+Sequence PACIENT88_ID_PAC_SEQ created.
+
+
+Trigger PACIENT88_ID_PAC_TRG compiled
+
+
+Sequence VYSETRENI88_ID_VYS_SEQ created.
+
+
+Trigger VYSETRENI88_ID_VYS_TRG compiled
+
+
+Procedure NAPLN_DOKTORY compiled
+
+LINE/COL  ERROR
+--------- -------------------------------------------------------------
+1/1       PLW-05018: u jednotky NAPLN_DOKTORY je vynechána nepovinná klauzule AUTHID; byla použita výchozí hodnota DEFINER
+1/1       PLW-07206: z analýzy vyplývá, že pøiøazení k 'FIRSTNAMES' mùže být nadbyteèné
+1/1       PLW-07206: z analýzy vyplývá, že pøiøazení k 'LASTNAMES' mùže být nadbyteèné
+Vse probehlo bez problemu a do tabulky bylo vlozeno 1500 zaznamu.
+
+
+PL/SQL procedure successfully completed.
+

@@ -1,0 +1,13 @@
+
+Session altered.
+
+
+Procedure NAPLN_VZTAH compiled
+
+LINE/COL  ERROR
+--------- -------------------------------------------------------------
+1/1       PLW-05018: u jednotky NAPLN_VZTAH je vynechána nepovinná klauzule AUTHID; byla použita výchozí hodnota DEFINER
+Vse probehlo bez problemu a do tabulky bylo vlozeno 1500 zaznamu.
+
+
+PL/SQL procedure successfully completed.
