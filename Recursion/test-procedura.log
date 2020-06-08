@@ -1,0 +1,45 @@
+Vypisu si rodovou linii vydry.
+
+
+PL/SQL procedure successfully completed.
+
+Vypis matek v rodove linii vydry jmenem Teodor(M).
+Teodor -> Ursula -> Jarmila
+
+
+PL/SQL procedure successfully completed.
+
+Nyni pridame vydry do rodove linie. Pridame matku Jarmily, a jeste jeji matku.
+
+
+PL/SQL procedure successfully completed.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+Nyni updatneme informace o Jarmile.
+
+
+PL/SQL procedure successfully completed.
+
+
+1 row updated.
+
+Vypiseme updatnutou rodovou linii.
+
+
+PL/SQL procedure successfully completed.
+
+Vypis matek v rodove linii vydry jmenem Teodor(M).
+Teodor -> Ursula -> Jarmila -> Marcela -> Snehurka
+
+
+PL/SQL procedure successfully completed.
+
+Vidime ze vse funguje.
+
+
+PL/SQL procedure successfully completed.
