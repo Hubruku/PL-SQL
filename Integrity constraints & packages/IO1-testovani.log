@@ -1,0 +1,129 @@
+
+Table VYSETRENI88 altered.
+
+
+Table VYSETRENI88 altered.
+
+
+Sequence DOKTOR88_ID_DOK_SEQ dropped.
+
+
+Sequence PACIENT88_ID_PAC_SEQ dropped.
+
+
+Sequence VYSETRENI88_ID_VYS_SEQ dropped.
+
+
+Table DOKTOR88 dropped.
+
+
+Table DOKTOR88 created.
+
+
+Table DOKTOR88 altered.
+
+
+Table PACIENT88 dropped.
+
+
+Table PACIENT88 created.
+
+
+Table PACIENT88 altered.
+
+
+Table VYSETRENI88 dropped.
+
+
+Table VYSETRENI88 created.
+
+
+Table VYSETRENI88 altered.
+
+
+Table VYSETRENI88 altered.
+
+
+Table VYSETRENI88 altered.
+
+
+Sequence DOKTOR88_ID_DOK_SEQ created.
+
+
+Trigger DOKTOR88_ID_DOK_TRG compiled
+
+
+Sequence PACIENT88_ID_PAC_SEQ created.
+
+
+Trigger PACIENT88_ID_PAC_TRG compiled
+
+
+Sequence VYSETRENI88_ID_VYS_SEQ created.
+
+
+Trigger VYSETRENI88_ID_VYS_TRG compiled
+
+
+Procedure NAPLN_PACIENTY compiled
+
+LINE/COL  ERROR
+--------- -------------------------------------------------------------
+1/1       PLW-05018: u jednotky NAPLN_PACIENTY je vynechána nepovinná klauzule AUTHID; byla použita výchozí hodnota DEFINER
+
+Session altered.
+
+
+Trigger CHECKVISITS compiled
+
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+Vse probehlo bez problemu a do tabulky bylo vlozeno 3 zaznamu.
+
+
+PL/SQL procedure successfully completed.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+Error starting at line : 12 in command -
+insert into vysetreni88 (id_pac, id_dok, datum) values (1,1,sysdate)
+Error report -
+ORA-20666: Tento pacient byl dnes u tohoto doktora uz dvakrat. Kvuli kapacitnim moznostem uz treti navsteva nebude povolena.
+ORA-06512: na "BOHMJAK1.CHECKVISITS", line 10
+ORA-04088: chyba během provádění triggeru 'BOHMJAK1.CHECKVISITS'
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+Error starting at line : 21 in command -
+insert into vysetreni88 (id_pac, id_dok, datum) values (3,1,sysdate)
+Error report -
+ORA-20666: Tento pacient byl dnes u tohoto doktora uz dvakrat. Kvuli kapacitnim moznostem uz treti navsteva nebude povolena.
+ORA-06512: na "BOHMJAK1.CHECKVISITS", line 10
+ORA-04088: chyba během provádění triggeru 'BOHMJAK1.CHECKVISITS'

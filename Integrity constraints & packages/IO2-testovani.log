@@ -1,0 +1,66 @@
+Package FIXVISITORS compiled
+
+LINE/COL  ERROR
+--------- -------------------------------------------------------------
+1/1       PLW-05018: u jednotky FIXVISITORS je vynechána nepovinná klauzule AUTHID; byla použita výchozí hodnota DEFINER
+
+Package Body FIXVISITORS compiled
+
+LINE/COL  ERROR
+--------- -------------------------------------------------------------
+3/5       PLW-05005: podprogram GET_PATIENT_ID se vrací bez hodnoty na řádku 11
+13/5      PLW-05005: podprogram GET_DOCTOR_ID se vrací bez hodnoty na řádku 21
+
+1 row inserted.
+
+Vse probehlo bez problemu a do tabulky bylo vlozeno 3 zaznamu.
+
+
+PL/SQL procedure successfully completed.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+    ID_VYS     ID_PAC     ID_DOK DATUM              
+---------- ---------- ---------- -------------------
+         1          1          1 18-03-2020 00:09:50
+         2          2          1 18-03-2020 00:09:50
+         3          3          1 18-03-2020 00:09:51
+         4          1          1 18-03-2020 00:09:51
+         5          2          1 18-03-2020 00:09:51
+         6          3          1 18-03-2020 00:09:51
+         8          2          2 18-03-2020 00:09:51
+         9          3          2 18-03-2020 00:09:51
+        11          4          3 18-03-2020 00:10:45
+        12          5          3 18-03-2020 00:10:45
+        13          6          3 18-03-2020 00:10:45
+
+11 rows selected. 
+
+
+PL/SQL procedure successfully completed.
+
+
+    ID_VYS     ID_PAC     ID_DOK DATUM              
+---------- ---------- ---------- -------------------
+         1          1          3 18-03-2020 00:09:50
+         2          2          1 18-03-2020 00:09:50
+         3          3          1 18-03-2020 00:09:51
+         4          1          3 18-03-2020 00:09:51
+         5          2          1 18-03-2020 00:09:51
+         6          3          1 18-03-2020 00:09:51
+         8          2          2 18-03-2020 00:09:51
+         9          3          2 18-03-2020 00:09:51
+        11          4          3 18-03-2020 00:10:45
+        12          5          3 18-03-2020 00:10:45
+        13          6          3 18-03-2020 00:10:45
+
+11 rows selected. 
+
